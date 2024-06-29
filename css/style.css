@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+}
+
+nav img {
+    width: 70px;
+    height: 40px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    cursor: pointer;
+    border-color: aqua;
+    color: aqua;
+}
+
+.active {
+    border-color: aqua;
+    color: aqua;
+}
+
+.first-section {
+    background-image: url(../imgs/banner.png);
+    background-repeat: no-repeat;
+}
+
+nav li a {
+    padding: 3px 25px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.first-section {
+    min-height: 600px;
+    overflow: hidden;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: aqua;
+}
+
+input {
+    border-radius: 25px;
+    border: 0px;
+}
+
+.first-input-div {
+    position: relative;
+    top: 50px;
+}
+
+.first-input-div button {
+    transform: translate(-100%);
+    border-radius: 25px;
+}
+
+.second-input-div button {
+    border-radius: 25px;
+    transform: translate(-100%);
+}
+
+.icon-container ul li a {
+    background-color: rgb(62, 60, 60);
+    padding: 10px 15px;
+    border-radius: 50%;
+    transition-duration: 0.3s;
+}
+
+.icon-container ul li a:hover {
+    background-color: #fff;
+    color: rgb(62, 60, 60);
+    transition-duration: 0.3s;
+}
+
+.br-5 {
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 100px;
+    margin: 0;
+}
+
+.bg-grey {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.cards {
+    position: relative;
+    top: 70px;
+
+}
+
+.w-10 {
+    width: 50px
+}
+
+.card {
+    height: 400px;
+
+}
+
+.br-25 {
+    border-radius: 25px;
+}
+h2{
+    margin: 0;
+}

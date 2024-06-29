@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark p-4">
+      <div class="container">
+        <a class="navbar-brand text-white" href="#">
+          <img src="./imgs/logo@2x.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+          weather
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse m-auto">
+          <ul class="navbar-nav ms-auto d-flex gap-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Live cameras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">photos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="first-section bg-dark">
+      <div class="container w-100">
+        <div class="first-input-div d-flex w-100">
+          <input
+            type="text"
+            placeholder="find your location...."
+            class="first-input px-4 py-3 bg-dark w-100 text-white locationinput"
+          />
+          <button class="btn btn-secondary px-4">find</button>
+        </div>
+        <div class="">
+          <div class="cards br-25 row pb-5 mb-5 d-flex justify-content-center align-items-center"></div>
+        </div>
+      </div>
+    </section>
+    <footer class="p-5  bg-secondary">
+      <div class="container">
+        <div class="row d-flex">
+          <div class="col-md-8 d-flex">
+            <div class="input-group mb-3">
+              <input
+                type="text"
+                class="form-control p-2 br-25"
+                placeholder="enter your email to subscribe...."
+                aria-label="Recipient's username"
+                aria-describedby="button-addon2"
+              />
+              <button
+                class="btn text-white br-25 bg-dark"
+                type="button"
+                id="button-addon2"
+              >
+                subscribe
+              </button>
+            </div>
+          </div>
+          <div class="icon-container d-flex col-md-3 offset-1">
+            <ul class="list-unstyled d-flex gap-2 m-0 fs-4 text-white">
+              <li>
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-google-plus-g"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-pinterest"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="text-white m-0">
+          Copyright 2014 Company name. Designed by Themezy. All rights reserved
+        </p>
+      </div>
+    </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

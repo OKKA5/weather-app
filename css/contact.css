@@ -1,0 +1,62 @@
+
+.bg-transperant{
+    background-color: transparent;
+}
+.row div input {
+    border: 2px solid black;
+    width: 100%;
+}
+.row div textarea {
+    border: 2px solid black;
+    width: 100%;
+}
+.row div textarea{
+    border-radius: 25px;
+}
+.w-fit{
+    width: fit-content;
+}
+input{
+    border-radius: 25px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    cursor: pointer;
+    border-color: aqua;
+    color: aqua;
+}
+.active{
+    border-color: aqua;
+    color: aqua;
+}
+nav li a{
+    padding: 3px 25px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color: aqua;
+}
+.icon-container ul li a {
+    background-color: rgb(62, 60, 60);
+    padding: 10px 15px;
+    border-radius: 50%;
+    transition-duration: 0.3s;
+}
+.icon-container ul li a:hover{
+    background-color: #fff;
+    color:rgb(62, 60, 60) ;
+    transition-duration: 0.3s;
+}
+.br-25{
+    border-radius: 25px;
+}
