@@ -1,55 +1,43 @@
-Here's a README file for your Weather App:  
+Here's an updated README file for your Weather App:
 
 ---
 
 # 🌦️ Weather App  
 
 ## 📌 Overview  
-The **Weather App** is a user-friendly web application that allows users to check real-time weather conditions for any city worldwide. It provides essential weather details like temperature, humidity, wind speed, and a dynamic weather icon based on the forecast.  
+The **Weather App** is a simple and intuitive web application that allows users to check real-time weather conditions for any city worldwide. It provides essential weather details like temperature, humidity, wind speed, and dynamic weather icons.  
 
 ## 🛠️ Features  
-- 🌍 Search for weather information by city name  
+- 🌍 Search for weather by city name  
 - 🌡️ Displays temperature, humidity, wind speed, and weather conditions  
 - ⏳ Real-time weather updates using an external API  
-- 🎨 Responsive design for a seamless experience on all devices  
-- ⚡ Fast and lightweight  
+- 🎨 Responsive and user-friendly design  
+- ⚡ Lightweight and fast  
 
 ## 🏗️ Technologies Used  
-- **HTML5, CSS3, Bootstrap**  
+- **HTML5, CSS3**  
 - **JavaScript**  
 - **Weather API Integration**  
 
 ## 🚀 Getting Started  
 
-### Prerequisites  
-Ensure you have the following installed:  
-- **Node.js & npm** (for package management)  
-- **Angular CLI**  
-
-### Installation  
+### Running the App  
 1. Clone the repository:  
    ```bash
    git clone https://github.com/yourusername/weather-app.git
    cd weather-app
    ```  
-2. Install dependencies:  
+2. Open `index.html` in your browser, or start a local server:  
    ```bash
-   npm install
-   ```  
-3. Run the app:  
-   ```bash
-   ng serve
-   ```  
-4. Open the browser and visit:  
-   ```
-   http://localhost:4200
+   npx serve
    ```  
 
 ## ⚡ API Integration  
 This app fetches real-time weather data using **[OpenWeatherMap API](https://openweathermap.org/api)** (or any other API you used).  
-To use the API, replace `YOUR_API_KEY` in the environment file with your actual API key.  
+To use the API, replace `YOUR_API_KEY` in the script file with your actual API key.  
 
 ## 🛠️ Future Enhancements  
+- 🌆 Multi-city weather comparison  
 - 📍 Location-based weather detection  
 - 📊 3-day weather forecast  
 
