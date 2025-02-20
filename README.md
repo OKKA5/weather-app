@@ -15,9 +15,8 @@ The **Weather App** is a user-friendly web application that allows users to chec
 - ⚡ Fast and lightweight  
 
 ## 🏗️ Technologies Used  
-- **Angular 17**  
 - **HTML5, CSS3, Bootstrap**  
-- **TypeScript & JavaScript**  
+- **JavaScript**  
 - **Weather API Integration**  
 
 ## 🚀 Getting Started  
@@ -50,13 +49,9 @@ Ensure you have the following installed:
 This app fetches real-time weather data using **[OpenWeatherMap API](https://openweathermap.org/api)** (or any other API you used).  
 To use the API, replace `YOUR_API_KEY` in the environment file with your actual API key.  
 
-## 📷 Screenshots  
-_(Include relevant screenshots of your app)_  
-
 ## 🛠️ Future Enhancements  
-- 🌆 Multi-city weather comparison  
 - 📍 Location-based weather detection  
-- 📊 7-day weather forecast  
+- 📊 3-day weather forecast  
 
 ## 🤝 Contributing  
 Feel free to fork the repository, create a new branch, and submit a pull request with improvements.  
