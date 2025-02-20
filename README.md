@@ -1,7 +1,3 @@
-Here's an updated README file for your Weather App:
-
----
-
 # 🌦️ Weather App  
 
 ## 📌 Overview  
